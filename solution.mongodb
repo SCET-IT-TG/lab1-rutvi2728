@@ -3,13 +3,15 @@ db = db.getSiblingDB("examDB");
 db.students.insertOne({
   name: "Elon Musk",
   department: "CO",
-  semester: 5
+  semester: 5,
+  mobile no: "9085375181"
 })
 
 db.students.insertOne({
    name: "Ashish Shah",
    department: "IT",
-   semester: 5
+   semester: 5,
+   mobile no: "8662386513"
  })
 
 
@@ -19,7 +21,7 @@ db.students.insertOne({
    name: "Rahul Shah",
    department: "IT",
    semester: 5,
-   mobile: "1234567890"
+   mobile no : "1234567890"
  })
 
 
@@ -55,7 +57,8 @@ db.students.insertOne({
    _id: ObjectId("64abc123456789abcdef1234"),
    name: "Chirag Dave",
    department: "IT",
-   semester: 5
+   semester: 5,
+   mobile no: "7863642845"
  })
 
 
@@ -63,20 +66,24 @@ db.students.insertOne({
 db.students.insertOne({
    name: "Amit Modi",
    department: "IT",
-   semester: 5
+   semester: 5,
+   mobile no: "7863642845"
  })
 
 db.students.insertOne({
    name: "trusha Shah",
    department: "IT",
-   semester: 5
+   semester: 5,
+   mobile no: "7863642845"
  })
 
 db.students.insertOne({
    name: "Ayush Shah",
    department: "IT",
-   semester: 5
+   semester: 5,
+  mobile no: "7863642845"
  })
+
 
 
 
