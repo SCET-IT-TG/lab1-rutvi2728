@@ -16,7 +16,7 @@ db.students.insertOne({
 
 
 db.students.insertOne({
-   name: "Rahul",
+   name: "Rahul Shah",
    department: "IT",
    semester: 5,
    mobile: "1234567890"
@@ -44,7 +44,7 @@ db.faculty.insert({
 
 db.students.insertOne({
    _id: ObjectId("64abc123456789abcdef1234"),
-   name: "Chitra",
+   name: "Chitra Patel",
    department: "IT",
    semester: 5
  })
@@ -53,7 +53,7 @@ db.students.insertOne({
 
 db.students.insertOne({
    _id: ObjectId("64abc123456789abcdef1234"),
-   name: "Chirag",
+   name: "Chirag Dave",
    department: "IT",
    semester: 5
  })
@@ -61,21 +61,22 @@ db.students.insertOne({
 
 
 db.students.insertOne({
-   name: "Modi",
+   name: "Amit Modi",
    department: "IT",
    semester: 5
  })
 
 db.students.insertOne({
-   name: "Amit",
+   name: "trusha Shah",
    department: "IT",
    semester: 5
  })
 
 db.students.insertOne({
-   name: "Doom",
+   name: "Ayush Shah",
    department: "IT",
    semester: 5
  })
+
 
 
