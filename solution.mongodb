@@ -48,7 +48,8 @@ db.students.insertOne({
    _id: ObjectId("64abc123456789abcdef1234"),
    name: "Chitra Patel",
    department: "IT",
-   semester: 5
+   semester: 5,
+   mobile no:"8787900456"
  })
 
 
@@ -83,6 +84,7 @@ db.students.insertOne({
    semester: 5,
   mobile no: "7863642845"
  })
+
 
 
 
