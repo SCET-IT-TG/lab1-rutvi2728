@@ -1,0 +1,79 @@
+db = db.getSiblingDB("examDB");
+
+db.students.insertOne({
+  name: "Elon Musk",
+  department: "CO",
+  semester: 5
+})
+
+db.students.insertOne({
+   name: "Ashish Shah",
+   department: "IT",
+   semester: 5
+ })
+
+
+
+
+db.students.insertOne({
+   name: "Rahul",
+   department: "IT",
+   semester: 5,
+   mobile: "1234567890"
+ })
+
+
+
+
+db.subjects.insert({
+  course_name: "IT",
+  subject_list: ["NOSQL","AIA","MATHS"],
+})
+
+
+
+db.faculty.insert({
+  department: "IT",
+  teachers: [
+    { name: "xx", experience: 5 },
+    { name: "yy", experience: 3 },
+    { name: "zz", experience: 7 }
+  ]
+});
+
+
+db.students.insertOne({
+   _id: ObjectId("64abc123456789abcdef1234"),
+   name: "Chitra",
+   department: "IT",
+   semester: 5
+ })
+
+
+
+db.students.insertOne({
+   _id: ObjectId("64abc123456789abcdef1234"),
+   name: "Chirag",
+   department: "IT",
+   semester: 5
+ })
+
+
+
+db.students.insertOne({
+   name: "Modi",
+   department: "IT",
+   semester: 5
+ })
+
+db.students.insertOne({
+   name: "Amit",
+   department: "IT",
+   semester: 5
+ })
+
+db.students.insertOne({
+   name: "Doom",
+   department: "IT",
+   semester: 5
+ })
